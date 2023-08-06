@@ -7,8 +7,8 @@ form.addEventListener("submit", function (e) {
   const email = document.querySelector("#email").value;
   const results = document.querySelector("#results");
 
-  const userdetail = "name:" +name +  " email:" +email;
+  const userdetail = `Name: ${name}\nEmail: ${email}`;
 
-results.innerHTML = `${userdetail} `;
+results.textContent = userdetail;
   
 });
