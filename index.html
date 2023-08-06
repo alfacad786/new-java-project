@@ -15,18 +15,18 @@
     <main>
       <h3></h3>
       <h1>My Form</h1>
-    <form id="myForm">
+      <form id="myForm">
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        <br>
+        <input type="text" id="name" name="name" required />
+        <br />
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <br>
+        <input type="email" id="email" name="email" required />
+        <br />
 
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" />
         <div id="results"></div>
-    </form>
+      </form>
     </main>
 
     <!-- <script>
@@ -37,8 +37,6 @@
     <script src="ddd.js"></script>
   </body>
 </html>
-
-
 
 <!DOCTYPE html>
 <html>
@@ -67,7 +65,7 @@
         changeButton.addEventListener("click", () => {
           newElement.textContent = "I am a old paragraph.";
           newElement.style.color = "white";
-          newElement.style.background ='blue';
+          newElement.style.background = "blue";
           newElement.style.width = "150px";
           newElement.style.height = "20px";
           newElement.style.background = "#c94f4f";
@@ -80,12 +78,12 @@
       );
     </script>
 
-      <!-- // Remove an element
+    <!-- // Remove an element
       // newElement.remove(); -->
-  
+
     <button id="myButton">Click Me</button>
 
-     <script>
+    <script>
       const myButton = document.getElementById("myButton");
       const newElement1 = document.createElement("p");
       newElement1.textContent = "I am a new paragraph.";
@@ -93,8 +91,9 @@
 
       // Event handling: Click event listener
       myButton.addEventListener("click", () => {
-        const newElement1 = document.createElement('p');
-      newElement1.textContent = 'I am a new paragraph.'});
+        const newElement1 = document.createElement("p");
+        newElement1.textContent = "I am a new paragraph.";
+      });
       document.body.appendChild(newElement1);
 
       if (
@@ -103,5 +102,19 @@
         })
       );
     </script>
+
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+          .name {
+            color: red;
+          }
+        </style>
+      </head>
+    </html>
   </body>
 </html>
